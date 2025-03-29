@@ -28,7 +28,7 @@ class ImageGenerator:
                     "output_format": "jpg",
                 }
                 output = replicate.run(
-                    "black-forest-labs/flux-1.1-pro", input=input_dict
+                    "black-forest-labs/flux-1.1-pro-ultra", input=input_dict
                 )
                 outputs = [output]
             elif self.model == "schnell":
